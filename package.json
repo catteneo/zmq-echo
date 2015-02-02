@@ -1,0 +1,30 @@
+{
+    "name": "zmq-echo",
+    "version": "1.0.0",
+    "description": "A sample implementation of a ZeroMQ echo server and client",
+    "keywords": [
+        "zeromq",
+        "zmq",
+        "echo",
+        "server",
+        "client"
+    ],
+    "author": {
+        "author": "Nicolas Riesco",
+        "email": "enquiries@nicolasriesco.net",
+        "url": "http://www.nicolasriesco.net/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/n-riesco/zmq-echo.git"
+    },
+    "private": true,
+    "bin": {
+        "zmq-echo-server": "bin/zmq-echo-server.js",
+        "zmq-echo-client": "bin/zmq-echo-client.js"
+    },
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "zmq": "^2.10.0"
+    }
+}
