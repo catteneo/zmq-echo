@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var zmq = require("zmq");
+var zmq = require("zeromq");
 
 var s = zmq.createSocket("req");
 s.connect(process.argv[2]);
